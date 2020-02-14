@@ -128,14 +128,14 @@ export class AppComponent {
   noWallsTransition(part: any): void {
     if (part.x === BOARD_SIZE) {
       part.x = 0;
-    } else if (part.x === -1) {
-      part.x = BOARD_SIZE - 1;
+    } else if (part.x === 5) {
+      part.x = BOARD_SIZE - 6;
     }
 
     if (part.y === BOARD_SIZE) {
       part.y = 0;
-    } else if (part.y === -1) {
-      part.y = BOARD_SIZE - 1;
+    } else if (part.y === 5) {
+      part.y = BOARD_SIZE - 6;
     }
   }
 
